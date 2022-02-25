@@ -1,7 +1,7 @@
 1- sudo su postgres
 2- psql
-3- CREATE DATABASE bd1;
-4- \c bd1;
+3- CREATE DATABASE exercicio_join-encadeado_7a7ce1c6;
+4- \c exercicio_join-encadeado_7a7ce1c6;
 5- Colar o script:
 6- Em src/database/database.js substituir com os dados de conexão do seu SGBD
 

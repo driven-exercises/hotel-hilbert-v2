@@ -7,7 +7,7 @@ const connection = new Pool({
     port: 5432,
     user: 'postgres',
     password: '123456',
-    database: 'bd1',
+    database: 'exercicio_join_encadeado_7a7ce1c6',
 });
 
 export default connection;
