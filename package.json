@@ -3,8 +3,9 @@
   "type": "module",
   "version": "1.0.0",
   "description": "O Hotel de Hilbert não está indo muito bem. Mesmo suportando infinitos hóspedes, quase ninguém está se hospedando lá...",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
+    "start": "node src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
