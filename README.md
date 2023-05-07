@@ -1,4 +1,6 @@
-# Antes de iniciar
+# Hotel Hilbert v2
+
+### Antes de iniciar
 
 Prepare seu ambiente para executar os códigos da API, para isso, abra o terminal na pasta desse exercício e digite o comando:
 ```
@@ -22,6 +24,6 @@ cd ..
 Entre manualmente na pasta database em src e acesse o arquivo database.js. Nele altere a senha do banco de "SUA_SENHA_TOP" para a senha que você criou para o seu banco de dados local
 > Pronto, agora você está pronto(a) para ajudar o hotel!
 
-# Enunciado
+### Enunciado
 
-Refatore a rota **GET** `/allocations` para utilizar joins encadeados no lugar de três queries.
+Refatore a rota **GET** `/allocations` para utilizar JOINs encadeados no lugar de fazer três queries diferentes.
