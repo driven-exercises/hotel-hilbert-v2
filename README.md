@@ -19,3 +19,18 @@
 ### Enunciado
 
 Refatore a rota **GET** `/allocations` para utilizar JOINs encadeados no lugar de fazer três queries diferentes.
+
+Estrutura das tabelas:
+
+- `rooms`: quartos do hotel
+    - `id`, inteiro gerado automaticamente pelo banco de dados
+    - `name`, string que representa o nome do quarto
+- `guests`: pessoas que já se hospedaram/estão hospedadas
+    - `id`, inteiro gerado automaticamente pelo banco de dados
+    - `name`, string que representa o nome do hóspede
+- `allocations`: histórico de hospedagem que liga um quarto a um cliente num determinado período de tempo
+    - `id`, inteiro gerado automaticamente pelo banco de dados
+    - `roomId`, inteiro com id do quarto usado
+    - `guestId`, inteiro com id do hóspede
+    - `startDate`, data com início da hospedagem
+    - `endDate`, data com final da hospedagem
